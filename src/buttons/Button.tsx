@@ -1,5 +1,6 @@
 // File: src/buttons/Button.tsx
 
-import React from 'react'
+import React from 'react';
 
-export const Button = () => <button>Hello World</button>
+export const Button: React.FC = () =>
+  <button>Hello World</button>;
